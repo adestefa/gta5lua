@@ -1,6 +1,6 @@
 
 
-# GTA V Modding: Getting Started with the Lua scripting language
+## GTA V Modding: Getting Started with the Lua scripting language
 
 
 ## GTA V Modding (background)
