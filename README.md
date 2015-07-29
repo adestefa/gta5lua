@@ -6,7 +6,7 @@
 ## Background
 
 As with other versions before it, GTA V requires someone spend the time to find access into the core game code. A way to set a "hook" that will allow other code to run in the game loop. In this way, developers who are skilled enough searched run-time memory and decomplied code for native functions in the game. Once these are found, tested and known they release a scripthook, which is complied down to .asi files. These files are then simply copied to the GTA V game folder, and will give other developers a "hook" for their scripts to run on top of.
-
+```
  ---------------
 [  USER MODS    ]
  ---------------
@@ -14,6 +14,7 @@ As with other versions before it, GTA V requires someone spend the time to find 
  ---------------
 [  GTA V        ]
  ---------------
+```
 
 This model of developement requires a lot of trial and error early on as the native functions are being discovered and documented. After some time, the inital scripthook devs published a long list of all known "native" functions. These are the actual functions the Rockstar devs use in the game code. Having access to these functions, their names, argument types and descriptions is part of the fun to discover and use as you grow and learn the game API.
 
@@ -28,6 +29,7 @@ This Getting Started guide is with you in mind. Instead of treading up the steep
 
 Using Lua, our stack now looks like this:
 
+```
  ---------------
 [  USR SCRIPTS  ]
  ---------------
@@ -37,7 +39,7 @@ Using Lua, our stack now looks like this:
  ---------------
 [  GTA V        ]
  ---------------
-
+```
 
 ### History
 
