@@ -25,9 +25,9 @@ List of native functions can be found here: http://www.dev-c.com/nativedb/
 
 So far, from what we know about ScriptHook, to make a mod you would have to write C++ (DLL) and complie down to .asl file. This gives you the most power and with .NET and C#, we may see what the future looks like for modding. But to get Visual Studio, .Net and C# up and running takes a bit more than most may have the time/desire to edure early on.
 
-This Getting Started guide is with you in mind. Instead of treading up the steep hill we can take an much easier path and be up and running within 10 mins. We will do this using Lua, a relatively simple C API written in ANSI C which makes working with GTA natives very straight forward and very "English like" for those more curious than die-hard harckers.
+This Getting Started guide is with you in mind. Instead of treading up the steep hill we can take an much easier path and be up and running within 10 mins just by copying a few simple flies into the GTA folder. We will do this using Lua, a relatively simple declarative laungauge written in ANSI C which makes working with GTA natives very straight forward and very "English like" for those more curious than die-hard harckers.
 
-Using Lua, our stack now looks like this:
+Using Lua, our stack now looks like this, and adding a mod is as simple as saving your script in the /addons folder!
 
 ```
  ---------------
@@ -43,7 +43,7 @@ Using Lua, our stack now looks like this:
 
 ### History
 
-Lua has an interesting history as a langage. It is born from limtations posed on engineers in Brazil, import laws did not allow them to use intellectual property from other countries. To expand past C, (which they already had) they would have to develop their own higher level languages themselves. Lua came from this effort, as a scripting lanuage over C, Lua is very easy to work with. It feels more like Python than say Java or C itself and has no dependancies.  This makes setting up and working with Lua in GTA V very easy and a great choice for someone wanting to get their feet wet with minimal invested time and learning curve.
+Lua has an interesting history as a language. It is born from limtations posed on engineers in Brazil, import laws did not allow them to use intellectual property from other countries. To expand past C, (which they already had) they would have to develop their own higher level languages themselves. Lua came from this effort, as a scripting lanuage over C, Lua is very easy to work with. It feels more like Python than say Java or C itself and has no dependancies.  This makes setting up and working with Lua in GTA V very easy and a great choice for someone wanting to get their feet wet with minimal invested time and learning curve.
 
 For the geek, Lua combines simple procedural syntax with powerful data description constructs based on associative arrays and extensible semantics. Lua is dynamically typed, runs by interpreting bytecode for a register-based virtual machine, and has automatic memory management with incremental garbage collection, making it ideal for configuration, scripting, and rapid prototyping.
 
@@ -59,19 +59,32 @@ Official site: http://www.lua.org/
 
 
 
-
-
-
 ## Setup
 
-A few simple steps to get up and running:
+A few simple steps to get up and running. First we must download ScriptHook, and copy the file to the GTA folder, then we must download the LuaScript file and copy that too, to the GTA folder
 
 1. Install Script Hook https://www.gta5-mods.com/tools/script-hook-v 
-2. Install the LUA script plugin for Scripthook https://www.gta5-mods.com/tools/lua-plugin-for-script-hook-v 
+2. Install the LUA script plugin for Scripthook http://gtaforums.com/topic/789139-vrelhook-lua-plugin-for-script-hook-v/
 
+## First script
 
+After you have installed both ScriptHook and LuaHook, you should have a /script/addons/ folder added in GTA main directory. This is where we will save .lua files.
 
+Here is a very simple hello world module. It does not print to GTA game, but the console instead. It is a good first test to make sure things are working for you.
+```
+local test = {}
 
+function test.tick()
+    print("Hello World!")
+end
+
+return test 
+```
+ Copy this code and save it as test.lua in /scripts/addons/ directory under your GTA install directory. Then fire up the game and you should see the game load normally. Once your player is moving around you can pause the game and alt-tab out to your desktop. There you can check the console for your print statement.
+ 
+ 
+ 
+ 
 
 -------------------------------------------
 1. https://en.wikipedia.org/wiki/Lua_(programming_language)
