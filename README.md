@@ -5,7 +5,7 @@
 
 ## Background
 
-As with other versions before it, modding GTA V requires someone spend the time to going through the code to find access to inject code into the core game. A way to set a "hook" that will allow other code to run in the game loop. In this way, developers who are skilled enough searched run-time memory and decomplied code for native functions in the game. Once these are found, tested and known they release a scripthook, which is complied down to .asi files. These files are then simply copied to the GTA V game folder, and will give other developers a "hook" for their scripts to run on top of.
+As with other versions before it, modding GTA V requires someone spend the time to go through the code to figure out how to access a way to inject other code into the core game. A way to set a "hook" that will allow other code to run in the game loop. In this way, developers who are skilled enough searched run-time memory and decomplied code for native functions in the game. Once these are found, tested and known they release a scripthook, which is complied down to .asi files. These files are then simply copied to the GTA V game folder, and will give other developers a "hook" for their scripts to run on top of.
 ```
  ---------------
 [  USER MODS    ]
