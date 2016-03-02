@@ -84,7 +84,9 @@ return test
  
  
  
- 
+The 'tick()' function here is what is run every frame of the game. This is where the code hooks into the run-time code, so be careful what you put in here as it can freeze or crash the game if you are not careful. The two files will get you started with some code. The zombie file can run as is, while the <TT> file is used as a template. Simply search and replace "<TT>" with your "Modulename" and it will create a new module with common functions you can use to create interesting changes to the game.
+
+Have fun!
 
 -------------------------------------------
 1. https://en.wikipedia.org/wiki/Lua_(programming_language)
