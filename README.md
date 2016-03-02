@@ -82,7 +82,7 @@ return test
 ```
  Copy this code and save it as test.lua in /scripts/addons/ directory under your GTA install directory. Then fire up the game and you should see the game load normally. Once your player is moving around you can pause the game and alt-tab out to your desktop. There you can check the console for your print statement.
  
-The 'tick()' function here is what is run every frame of the game. This is where the code hooks into the run-time code, so be careful what you put in here as it can freeze or crash the game if you are not careful. The two files will get you started with some code. The zombie file can run as is, while the <TT> file is used as a template. Simply search and replace <TT> with your "Modulename" and it will create a new module with common functions you can use to create interesting changes to the game.
+The 'tick()' function here is what is run every frame of the game. This is where the code hooks into the run-time code, so be careful what you put in here as it can freeze or crash the game if you are not careful. The two files will get you started with some code. The zombie file can run as is, while the &lt;TT&gt; file is used as a template. Simply search and replace <TT> with your "Modulename" and it will create a new module with common functions you can use to create interesting changes to the game.
 
 Have fun!
 
