@@ -14,7 +14,7 @@
 	 5. Text will appear above the mini-map when installed correctly
  
  -------------------------------
- version 0.9 7/17/2015
+ version 0.1 7/17/2015
   - base version  
 ]]--
 local <TT> = {};
