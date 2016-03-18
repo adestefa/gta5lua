@@ -129,6 +129,10 @@ When you download Script hook you have the option of the Download SDK version. T
 ![Image of Console](https://adestefawp.files.wordpress.com/2016/03/console.png)
 
 
+## FlipAllTheThings
+Here is a very simple mod I wrote using the same approach. I included it here to give you a real working example and includes some good practices, including on-screen menus and proper handling of memory in tick() which runs every frame.
+
+
 ###Have fun!
 
 
