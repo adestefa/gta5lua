@@ -79,7 +79,8 @@ function test.tick()
     print("Hello World!")
 end
 
-return test ```
+return test
+```
 
 
 
@@ -108,10 +109,11 @@ function again.tick()
 		wait(4999);	
 	end
 end
-```
 return again
+```
 
-Have fun!
+
+###Have fun!
 
 
 -------------------------------------------
