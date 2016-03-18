@@ -84,6 +84,30 @@ return test
  
 The 'tick()' function here is what is run every frame of the game. This is where the code hooks into the run-time code, so be careful what you put in here as it can freeze or crash the game if you are not careful. The two files will get you started with some code. The zombie file can run as is, while the "&lt;TT&gt;" file is used as a template. Simply search and replace "&lt;TT&gt;" with your "Modulename" and it will create a new module with common functions you can use to create interesting changes to the game.
 
+## Keys
+keys.lua contains mapping of common keyboard keys. Use this for refference or add this to your project for direct use.
+
+## Skins.txt
+Every object in GTA V will have both a string name and an actual hash reference value. This hash acts as the actual value stored in memory. You can use either, but if you use the string name, ```model = GAMEPLAY.GET_HASH_KEY(modelName)``` you have to do a look-up to get the hash value before you can use it in game. This is why it is faster just to include the hash and skip the overhead.
+
+## again.lua
+Like any development, a cycle of change and test is common work-flow. Without any help, you must exit the game and restart before any changes to files in the addins folder will show up in game. Again.lua to the rescue! This simple file will let you press a key to have your code reload without having to exit the game! This was such a game changer for me as it increased my dev cycle by 1000x. 
+
+Simply include this file in our addins folder ```\SteamLibrary\SteamApps\common\Grand Theft Auto V\scripts\addins``` to use. Currently set to key 35 (del) which is not always avaiable on all keyboards. Feel free to change.
+
+```
+local again = {}
+function again.tick()
+    -- end key 35--
+	if(get_key_pressed(35)) then
+		loadAddIns()
+		print("AddIns ReLoaded")
+		wait(4999);	
+	end
+end
+```
+return again
+
 Have fun!
 
 
