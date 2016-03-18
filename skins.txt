@@ -1,0 +1,853 @@
+PICKUP_WEAPON_PISTOL=-105925489
+PICKUP_WEAPON_COMBATPISTOL=-1989692173
+PICKUP_WEAPON_APPISTOL=996550793
+PICKUP_WEAPON_MICROSMG=496339155
+PICKUP_WEAPON_SMG=978070226
+PICKUP_WEAPON_ASSAULTRIFLE=-214137936
+PICKUP_WEAPON_CARBINERIFLE=-546236071
+PICKUP_WEAPON_ADVANCEDRIFLE=-1296747938
+PICKUP_WEAPON_SAWNOFFSHOTGUN=-1766583645
+PICKUP_WEAPON_PUMPSHOTGUN=-1456120371
+PICKUP_WEAPON_ASSAULTSHOTGUN=-1835415205
+PICKUP_WEAPON_SNIPERRIFLE=-30788308
+PICKUP_WEAPON_HEAVYSNIPER=1765114797
+PICKUP_WEAPON_MG=-2050315855
+PICKUP_WEAPON_COMBATMG=-1298986476
+PICKUP_WEAPON_GRENADELAUNCHER=779501861
+PICKUP_WEAPON_RPG=1295434569
+PICKUP_WEAPON_MINIGUN=792114228
+PICKUP_WEAPON_GRENADE=1577485217
+PICKUP_WEAPON_STICKYBOMB=2081529176
+PICKUP_WEAPON_MOLOTOV=768803961
+PICKUP_WEAPON_PETROLCAN=-962731009
+PICKUP_WEAPON_SMOKEGRENADE=483787975
+PICKUP_WEAPON_KNIFE=663586612
+PICKUP_WEAPON_BAT=-2115084258
+PICKUP_WEAPON_HAMMER=693539241
+PICKUP_WEAPON_CROWBAR=-2027042680
+PICKUP_WEAPON_GOLFCLUB=-1997886297
+PICKUP_WEAPON_NIGHTSTICK=1587637620
+PICKUP_WEAPON_FIREEXTINGUISHER=-887893374
+PICKUP_WEAPON_LASSO=1724937680
+PICKUP_WEAPON_LOUDHAILER=2017151059
+PICKUP_PARACHUTE=1735599485
+PICKUP_ARMOUR_STANDARD=1274757841
+PICKUP_HEALTH_STANDARD=-1888453608
+PICKUP_VEHICLE_WEAPON_PISTOL=-1521817673
+PICKUP_VEHICLE_WEAPON_COMBATPISTOL=-794112265
+PICKUP_VEHICLE_WEAPON_APPISTOL=-863291131
+PICKUP_VEHICLE_WEAPON_MICROSMG=-1200951717
+PICKUP_VEHICLE_WEAPON_SMG=-864236261
+PICKUP_VEHICLE_WEAPON_SAWNOFF=772217690
+PICKUP_VEHICLE_WEAPON_GRENADE=-1491601256
+PICKUP_VEHICLE_WEAPON_MOLOTOV=-2066319660
+PICKUP_VEHICLE_WEAPON_SMOKEGRENADE=1705498857
+PICKUP_VEHICLE_WEAPON_STICKYBOMB=746606563
+PICKUP_VEHICLE_HEALTH_STANDARD=160266735
+PICKUP_VEHICLE_ARMOUR_STANDARD=1125567497
+PICKUP_MONEY_CASE=-831529621
+PICKUP_MONEY_DEP_BAG=545862290
+PICKUP_MONEY_MED_BAG=341217064
+PICKUP_MONEY_PAPER_BAG=1897726628
+PICKUP_PORTABLE_CRATE_UNFIXED=1852930709
+PICKUP_PORTABLE_PACKAGE=-2136239332
+PICKUP_MONEY_CASE=-831529621
+PICKUP_AMMO_BULLET_MP=1426343849
+PICKUP_AMMO_MISSILE_MP=-107080240
+PICKUP_CAMERA=-482507216
+PICKUP_CUSTOM_SCRIPT=738282662
+PICKUP_HANDCUFF_KEY=155886031
+PICKUP_HEALTH_SNACK=483577702
+PICKUP_MONEY_PURSE=513448440
+PICKUP_MONEY_SECURITY_CASE=-562499202
+PICKUP_MONEY_VARIABLE=-31919185
+PICKUP_MONEY_WALLET=1575005502
+PICKUP_SUBMARINE=-405862452
+PICKUP_TYPE_INVALID=-723152950
+PICKUP_MONEY_WALLET=1575005502
+PICKUP_VEHICLE_CUSTOM_SCRIPT=-1514616151
+
+
+  BLIP SPRITES IDs
+
+
+		Standard = 1,
+		BigBlip = 2,
+		PoliceOfficer = 3,
+		PoliceArea = 4,
+		Square = 5,
+		Player = 6,
+		North = 7,
+		Waypoint = 8,
+		BigCircle = 9,
+		BigCircleOutline = 10,
+		ArrowUpOutlined = 11,
+		ArrowDownOutlined = 12,
+		ArrowUp = 13,
+		ArrowDown = 14,
+		PoliceHelicopterAnimated = 15,
+		Jet = 16,
+		Number1 = 17,
+		Number2 = 18,
+		Number3 = 19,
+		Number4 = 20,
+		Number5 = 21,
+		Number6 = 22,
+		Number7 = 23,
+		Number8 = 24,
+		Number9 = 25,
+		Number10 = 26,
+		GTAOCrew = 27,
+		GTAOFriendly = 28,
+		Lift = 36,
+		RaceFinish = 38,
+		Safehouse = 40,
+		PoliceOfficer2 = 41,
+		PoliceCarDot = 42,
+		PoliceHelicopter = 43,
+		ChatBubble = 47,
+		Garage2 = 50,
+		Drugs = 51,
+		Store = 52,
+		PoliceCar = 56,
+		PolicePlayer = 58,
+		PoliceStation = 60,
+		Hospital = 61,
+		Helicopter = 64,
+		StrangersAndFreaks = 65,
+		ArmoredTruck = 66,
+		TowTruck = 68,
+		Barber = 71,
+		LosSantosCustoms = 72,
+		Clothes = 73,
+		TattooParlor = 75,
+		Simeon = 76,
+		Lester = 77,
+		Michael = 78,
+		Trevor = 79,
+		Rampage = 84,
+		VinewoodTours = 85,
+		Lamar = 86,
+		Franklin = 88,
+		Chinese = 89,
+		Airport = 90,
+		Bar = 93,
+		BaseJump = 94,
+		CarWash = 100,
+		ComedyClub = 102,
+		Dart = 103,
+		FIB = 106,
+		DollarSign = 108,
+		Golf = 109,
+		AmmuNation = 110,
+		Exile = 112,
+		ShootingRange = 119,
+		Solomon = 120,
+		StripClub = 121,
+		Tennis = 122,
+		Triathlon = 126,
+		OffRoadRaceFinish = 127,
+		Key = 134,
+		MovieTheater = 135,
+		Music = 136,
+		Marijuana = 140,
+		Hunting = 141,
+		ArmsTraffickingGround = 147,
+		Nigel = 149,
+		AssaultRifle = 150,
+		Bat = 151,
+		Grenade = 152,
+		Health = 153,
+		Knife = 154,
+		Molotov = 155,
+		Pistol = 156,
+		RPG = 157,
+		Shotgun = 158,
+		SMG = 159,
+		Sniper = 160,
+		SonicWave = 161,
+		PointOfInterest = 162,
+		GTAOPassive = 163,
+		GTAOUsingMenu = 164,
+		Link = 171,
+		Minigun = 173,
+		GrenadeLauncher = 174,
+		Armor = 175,
+		Castle = 176,
+		Camera = 184,
+		Handcuffs = 188,
+		Yoga = 197,
+		Cab = 198,
+		Number11 = 199,
+		Number12 = 200,
+		Number13 = 201,
+		Number14 = 202,
+		Number15 = 203,
+		Number16 = 204,
+		Shrink = 205,
+		Epsilon = 206,
+		PersonalVehicleCar = 225,
+		PersonalVehicleBike = 226,
+		Custody = 237,
+		ArmsTraffickingAir = 251,
+		Fairground = 266,
+		PropertyManagement = 267,
+		Altruist = 269,
+		Enemy = 270,
+		Chop = 273,
+		Dead = 274,
+		Hooker = 279,
+		Friend = 280,
+		BountyHit = 303,
+		GTAOMission = 304,
+		GTAOSurvival = 305,
+		CrateDrop = 306,
+		PlaneDrop = 307,
+		Sub = 308,
+		Race = 309,
+		Deathmatch = 310,
+		ArmWrestling = 311,
+		AmmuNationShootingRange = 313,
+		RaceAir = 314,
+		RaceCar = 315,
+		RaceSea = 316,
+		GarbageTruck = 318,
+		SafehouseForSale = 350,
+		Package = 351,
+		MartinMadrazo = 352,
+		EnemyHelicopter = 353,
+		Boost = 354,
+		Devin = 355,
+		Marina = 356,
+		Garage = 357,
+		GolfFlag = 358,
+		Hangar = 359,
+		Helipad = 360,
+		JerryCan = 361,
+		Masks = 362,
+		HeistSetup = 363,
+		Incapacitated = 364,
+		PickupSpawn = 365,
+		BoilerSuit = 366,
+		Completed = 367,
+		Rockets = 368,
+		GarageForSale = 369,
+		HelipadForSale = 370,
+		MarinaForSale = 371,
+		HangarForSale = 372,
+		Business = 374,
+		BusinessForSale = 375,
+		RaceBike = 376,
+		Parachute = 377,
+		TeamDeathmatch = 378,
+		RaceFoot = 379,
+		VehicleDeathmatch = 380,
+		Barry = 381,
+		Dom = 382,
+		MaryAnn = 383,
+		Cletus = 384,
+		Josh = 385,
+		Minute = 386,
+		Omega = 387,
+		Tonya = 388,
+		Paparazzo = 389,
+		Crosshair = 390,
+		Creator = 398,
+		CreatorDirection = 399,
+		Abigail = 400,
+		Blimp = 401,
+		Repair = 402,
+		Testosterone = 403,
+		Dinghy = 404,
+		Fanatic = 405,
+		Information = 407,
+		CaptureBriefcase = 408,
+		LastTeamStanding = 409,
+		Boat = 410,
+		CaptureHouse = 411,
+		JerryCan2 = 415,
+		RP = 416,
+		GTAOPlayerSafehouse = 417,
+		GTAOPlayerSafehouseDead = 418,
+		CaptureAmericanFlag = 419,
+		CaptureFlag = 420,
+		Tank = 421,
+		HelicopterAnimated = 422,
+		Plane = 423,
+		PlayerNoColor = 425,
+		GunCar = 426,
+		Speedboat = 427,
+		Heist = 428,
+		Stopwatch = 430,
+		DollarSignCircled = 431,
+		Crosshair2 = 432,
+		DollarSignSquared = 434.
+
+		
+		
+		
+Classic/Metallic: (Metallic just adds a Pearlescent Color of the same color to Secondary Color)
+Black:0
+Carbon Black:147
+Graphite:1
+Anhracite Black:11
+Black Steel:2
+Dark Steel:3
+Silver:4
+Bluish Silver:5
+Rolled Steel:6
+Shadow Silver:7
+Stone Silver:8
+Midnight Silver:9
+Cast Iron Silver:10
+Red:27
+Torino Red:28
+Formula Red:29
+Lava Red:150
+Blaze Red:30
+Grace Red:31
+Garnet Red:32
+Sunset Red:33
+Cabernet Red:34
+Wine Red:143
+Candy Red:35
+Hot Pink:135
+Pfsiter Pink:137
+Salmon Pink:136
+Sunrise Orange:36
+Orange:38
+Bright Orange:138
+Gold:99
+Bronze:90
+Yellow:88
+Race Yellow:89
+Dew Yellow:91
+Dark Green:49
+Racing Green:50
+Sea Green:51
+Olive Green:52
+Bright Green:53
+Gasoline Green:54
+Lime Green:92
+Midnight Blue:141
+Galaxy Blue:61
+Dark Blue:62
+Saxon Blue:63
+Blue:64
+Mariner Blue:65
+Harbor Blue:66
+Diamond Blue:67
+Surf Blue:68
+Nautical Blue:69
+Racing Blue:73
+Ultra Blue:70
+Light Blue:74
+Chocolate Brown:96
+Bison Brown:101
+Creeen Brown:95
+Feltzer Brown:94
+Maple Brown:97
+Beechwood Brown:103
+Sienna Brown:104
+Saddle Brown:98
+Moss Brown:100
+Woodbeech Brown:102
+Straw Brown:99
+Sandy Brown:105
+Bleached Brown:106
+Schafter Purple:71
+Spinnaker Purple:72
+Midnight Purple:142
+Bright Purple:145
+Cream:107
+Ice White:111
+Frost White:112
+
+Matte:
+Black:12
+Gray:13
+Light Gray:14
+Ice White:131
+Blue:83
+Dark Blue:82
+Midnight Blue:84
+Midnight Purple:149
+Schafter Purple:148
+Red:39
+Dark Red:40
+Orange:41
+Yellow:42
+Lime Green:55
+Green:128
+Forest Green:151
+Foliage Green:155
+Olive Darb:152
+Dark Earth:153
+Desert Tan:154
+
+Metals:
+Brushed Steel:117
+Brushed Black Steel:118
+Brushed Aluminum:119
+Pure Gold:158
+Brushed Gold:159
+
+--Reference for models
+--[[
+	"player_zero", "player_one", "player_two", "a_c_boar", "a_c_chimp", "a_c_cow", "a_c_coyote", "a_c_deer", "a_c_fish", "a_c_hen",
+	"a_c_cat_01", "a_c_chickenhawk", "a_c_cormorant", "a_c_crow", "a_c_dolphin", "a_c_humpback", "a_c_killerwhale", "a_c_pigeon", "a_c_seagull", "a_c_sharkhammer",
+	"a_c_pig", "a_c_rat", "a_c_rhesus", "a_c_chop", "a_c_husky", "a_c_mtlion", "a_c_retriever", "a_c_sharktiger", "a_c_shepherd", "s_m_m_movalien_01",
+	"a_f_m_beach_01", "a_f_m_bevhills_01", "a_f_m_bevhills_02", "a_f_m_bodybuild_01", "a_f_m_business_02", "a_f_m_downtown_01", "a_f_m_eastsa_01", "a_f_m_eastsa_02", "a_f_m_fatbla_01", "a_f_m_fatcult_01",
+	"a_f_m_fatwhite_01", "a_f_m_ktown_01", "a_f_m_ktown_02", "a_f_m_prolhost_01", "a_f_m_salton_01", "a_f_m_skidrow_01", "a_f_m_soucentmc_01", "a_f_m_soucent_01", "a_f_m_soucent_02", "a_f_m_tourist_01",
+	"a_f_m_trampbeac_01", "a_f_m_tramp_01", "a_f_o_genstreet_01", "a_f_o_indian_01", "a_f_o_ktown_01", "a_f_o_salton_01", "a_f_o_soucent_01", "a_f_o_soucent_02", "a_f_y_beach_01", "a_f_y_bevhills_01",
+	"a_f_y_bevhills_02", "a_f_y_bevhills_03", "a_f_y_bevhills_04", "a_f_y_business_01", "a_f_y_business_02", "a_f_y_business_03", "a_f_y_business_04", "a_f_y_eastsa_01", "a_f_y_eastsa_02", "a_f_y_eastsa_03",
+	"a_f_y_epsilon_01", "a_f_y_fitness_01", "a_f_y_fitness_02", "a_f_y_genhot_01", "a_f_y_golfer_01", "a_f_y_hiker_01", "a_f_y_hippie_01", "a_f_y_hipster_01", "a_f_y_hipster_02", "a_f_y_hipster_03",
+	"a_f_y_hipster_04", "a_f_y_indian_01", "a_f_y_juggalo_01", "a_f_y_runner_01", "a_f_y_rurmeth_01", "a_f_y_scdressy_01", "a_f_y_skater_01", "a_f_y_soucent_01", "a_f_y_soucent_02", "a_f_y_soucent_03",
+	"a_f_y_tennis_01", "a_f_y_topless_01", "a_f_y_tourist_01", "a_f_y_tourist_02", "a_f_y_vinewood_01", "a_f_y_vinewood_02", "a_f_y_vinewood_03", "a_f_y_vinewood_04", "a_f_y_yoga_01", "a_m_m_acult_01",
+	"a_m_m_afriamer_01", "a_m_m_beach_01", "a_m_m_beach_02", "a_m_m_bevhills_01", "a_m_m_bevhills_02", "a_m_m_business_01", "a_m_m_eastsa_01", "a_m_m_eastsa_02", "a_m_m_farmer_01", "a_m_m_fatlatin_01",
+	"a_m_m_genfat_01", "a_m_m_genfat_02", "a_m_m_golfer_01", "a_m_m_hasjew_01", "a_m_m_hillbilly_01", "a_m_m_hillbilly_02", "a_m_m_indian_01", "a_m_m_ktown_01", "a_m_m_malibu_01", "a_m_m_mexcntry_01",
+	"a_m_m_mexlabor_01", "a_m_m_og_boss_01", "a_m_m_paparazzi_01", "a_m_m_polynesian_01", "a_m_m_prolhost_01", "a_m_m_rurmeth_01", "a_m_m_salton_01", "a_m_m_salton_02", "a_m_m_salton_03", "a_m_m_salton_04",
+	"a_m_m_skater_01", "a_m_m_skidrow_01", "a_m_m_socenlat_01", "a_m_m_soucent_01", "a_m_m_soucent_02", "a_m_m_soucent_03", "a_m_m_soucent_04", "a_m_m_stlat_02", "a_m_m_tennis_01", "a_m_m_tourist_01",
+	"a_m_m_trampbeac_01", "a_m_m_tramp_01", "a_m_m_tranvest_01", "a_m_m_tranvest_02", "a_m_o_acult_01", "a_m_o_acult_02", "a_m_o_beach_01", "a_m_o_genstreet_01", "a_m_o_ktown_01", "a_m_o_salton_01",
+	"a_m_o_soucent_01", "a_m_o_soucent_02", "a_m_o_soucent_03", "a_m_o_tramp_01", "a_m_y_acult_01", "a_m_y_acult_02", "a_m_y_beachvesp_01", "a_m_y_beachvesp_02", "a_m_y_beach_01", "a_m_y_beach_02",
+	"a_m_y_beach_03", "a_m_y_bevhills_01", "a_m_y_bevhills_02", "a_m_y_breakdance_01", "a_m_y_busicas_01", "a_m_y_business_01", "a_m_y_business_02", "a_m_y_business_03", "a_m_y_cyclist_01", "a_m_y_dhill_01",
+	"a_m_y_downtown_01", "a_m_y_eastsa_01", "a_m_y_eastsa_02", "a_m_y_epsilon_01", "a_m_y_epsilon_02", "a_m_y_gay_01", "a_m_y_gay_02", "a_m_y_genstreet_01", "a_m_y_genstreet_02", "a_m_y_golfer_01",
+	"a_m_y_hasjew_01", "a_m_y_hiker_01", "a_m_y_hippy_01", "a_m_y_hipster_01", "a_m_y_hipster_02", "a_m_y_hipster_03", "a_m_y_indian_01", "a_m_y_jetski_01", "a_m_y_juggalo_01", "a_m_y_ktown_01",
+	"a_m_y_ktown_02", "a_m_y_latino_01", "a_m_y_methhead_01", "a_m_y_mexthug_01", "a_m_y_motox_01", "a_m_y_motox_02", "a_m_y_musclbeac_01", "a_m_y_musclbeac_02", "a_m_y_polynesian_01", "a_m_y_roadcyc_01",
+	"a_m_y_runner_01", "a_m_y_runner_02", "a_m_y_salton_01", "a_m_y_skater_01", "a_m_y_skater_02", "a_m_y_soucent_01", "a_m_y_soucent_02", "a_m_y_soucent_03", "a_m_y_soucent_04", "a_m_y_stbla_01",
+	"a_m_y_stbla_02", "a_m_y_stlat_01", "a_m_y_stwhi_01", "a_m_y_stwhi_02", "a_m_y_sunbathe_01", "a_m_y_surfer_01", "a_m_y_vindouche_01", "a_m_y_vinewood_01", "a_m_y_vinewood_02", "a_m_y_vinewood_03",
+	"a_m_y_vinewood_04", "a_m_y_yoga_01", "u_m_y_proldriver_01", "u_m_y_rsranger_01", "u_m_y_sbike", "u_m_y_staggrm_01", "u_m_y_tattoo_01", "csb_abigail", "csb_anita", "csb_anton",
+	"csb_ballasog", "csb_bride", "csb_burgerdrug", "csb_car3guy1", "csb_car3guy2", "csb_chef", "csb_chin_goon", "csb_cletus", "csb_cop", "csb_customer",
+	"csb_denise_friend", "csb_fos_rep", "csb_g", "csb_groom", "csb_grove_str_dlr", "csb_hao", "csb_hugh", "csb_imran", "csb_janitor", "csb_maude",
+	"csb_mweather", "csb_ortega", "csb_oscar", "csb_porndudes", "csb_porndudes_p", "csb_prologuedriver", "csb_prolsec", "csb_ramp_gang", "csb_ramp_hic", "csb_ramp_hipster",
+	"csb_ramp_marine", "csb_ramp_mex", "csb_reporter", "csb_roccopelosi", "csb_screen_writer", "csb_stripper_01", "csb_stripper_02", "csb_tonya", "csb_trafficwarden", "cs_amandatownley",
+	"cs_andreas", "cs_ashley", "cs_bankman", "cs_barry", "cs_barry_p", "cs_beverly", "cs_beverly_p", "cs_brad", "cs_bradcadaver", "cs_carbuyer",
+	"cs_casey", "cs_chengsr", "cs_chrisformage", "cs_clay", "cs_dale", "cs_davenorton", "cs_debra", "cs_denise", "cs_devin", "cs_dom",
+	"cs_dreyfuss", "cs_drfriedlander", "cs_fabien", "cs_fbisuit_01", "cs_floyd", "cs_guadalope", "cs_gurk", "cs_hunter", "cs_janet", "cs_jewelass",
+	"cs_jimmyboston", "cs_jimmydisanto", "cs_joeminuteman", "cs_johnnyklebitz", "cs_josef", "cs_josh", "cs_lamardavis", "cs_lazlow", "cs_lestercrest", "cs_lifeinvad_01",
+	"cs_magenta", "cs_manuel", "cs_marnie", "cs_martinmadrazo", "cs_maryann", "cs_michelle", "cs_milton", "cs_molly", "cs_movpremf_01", "cs_movpremmale",
+	"cs_mrk", "cs_mrsphillips", "cs_mrs_thornhill", "cs_natalia", "cs_nervousron", "cs_nigel", "cs_old_man1a", "cs_old_man2", "cs_omega", "cs_orleans",
+	"cs_paper", "cs_paper_p", "cs_patricia", "cs_priest", "cs_prolsec_02", "cs_russiandrunk", "cs_siemonyetarian", "cs_solomon", "cs_stevehains", "cs_stretch",
+	"cs_tanisha", "cs_taocheng", "cs_taostranslator", "cs_tenniscoach", "cs_terry", "cs_tom", "cs_tomepsilon", "cs_tracydisanto", "cs_wade", "cs_zimbor",
+	"g_f_y_ballas_01", "g_f_y_families_01", "g_f_y_lost_01", "g_f_y_vagos_01", "g_m_m_armboss_01", "g_m_m_armgoon_01", "g_m_m_armlieut_01", "g_m_m_chemwork_01", "g_m_m_chemwork_01_p", "g_m_m_chiboss_01",
+	"g_m_m_chiboss_01_p", "g_m_m_chicold_01", "g_m_m_chicold_01_p", "g_m_m_chigoon_01", "g_m_m_chigoon_01_p", "g_m_m_chigoon_02", "g_m_m_korboss_01", "g_m_m_mexboss_01", "g_m_m_mexboss_02", "g_m_y_armgoon_02",
+	"g_m_y_azteca_01", "g_m_y_ballaeast_01", "g_m_y_ballaorig_01", "g_m_y_ballasout_01", "g_m_y_famca_01", "g_m_y_famdnf_01", "g_m_y_famfor_01", "g_m_y_korean_01", "g_m_y_korean_02", "g_m_y_korlieut_01",
+	"g_m_y_lost_01", "g_m_y_lost_02", "g_m_y_lost_03", "g_m_y_mexgang_01", "g_m_y_mexgoon_01", "g_m_y_mexgoon_02", "g_m_y_mexgoon_03", "g_m_y_mexgoon_03_p", "g_m_y_pologoon_01", "g_m_y_pologoon_01_p",
+	"g_m_y_pologoon_02", "g_m_y_pologoon_02_p", "g_m_y_salvaboss_01", "g_m_y_salvagoon_01", "g_m_y_salvagoon_02", "g_m_y_salvagoon_03", "g_m_y_salvagoon_03_p", "g_m_y_strpunk_01", "g_m_y_strpunk_02", "hc_driver",
+	"hc_gunman", "hc_hacker", "ig_abigail", "ig_amandatownley", "ig_andreas", "ig_ashley", "ig_ballasog", "ig_bankman", "ig_barry", "ig_barry_p",
+	"ig_bestmen", "ig_beverly", "ig_beverly_p", "ig_brad", "ig_bride", "ig_car3guy1", "ig_car3guy2", "ig_casey", "ig_chef", "ig_chengsr",
+	"ig_chrisformage", "ig_clay", "ig_claypain", "ig_cletus", "ig_dale", "ig_davenorton", "ig_denise", "ig_devin", "ig_dom", "ig_dreyfuss",
+	"ig_drfriedlander", "ig_fabien", "ig_fbisuit_01", "ig_floyd", "ig_groom", "ig_hao", "ig_hunter", "ig_janet", "ig_jay_norris", "ig_jewelass",
+	"ig_jimmyboston", "ig_jimmydisanto", "ig_joeminuteman", "ig_johnnyklebitz", "ig_josef", "ig_josh", "ig_kerrymcintosh", "ig_lamardavis", "ig_lazlow", "ig_lestercrest",
+	"ig_lifeinvad_01", "ig_lifeinvad_02", "ig_magenta", "ig_manuel", "ig_marnie", "ig_maryann", "ig_maude", "ig_michelle", "ig_milton", "ig_molly",
+	"ig_mrk", "ig_mrsphillips", "ig_mrs_thornhill", "ig_natalia", "ig_nervousron", "ig_nigel", "ig_old_man1a", "ig_old_man2", "ig_omega", "ig_oneil",
+	"ig_orleans", "ig_ortega", "ig_paper", "ig_patricia", "ig_priest", "ig_prolsec_02", "ig_ramp_gang", "ig_ramp_hic", "ig_ramp_hipster", "ig_ramp_mex",
+	"ig_roccopelosi", "ig_russiandrunk", "ig_screen_writer", "ig_siemonyetarian", "ig_solomon", "ig_stevehains", "ig_stretch", "ig_talina", "ig_tanisha", "ig_taocheng",
+	"ig_taostranslator", "ig_taostranslator_p", "ig_tenniscoach", "ig_terry", "ig_tomepsilon", "ig_tonya", "ig_tracydisanto", "ig_trafficwarden", "ig_tylerdix", "ig_wade",
+	"ig_zimbor", "mp_f_deadhooker", "mp_f_freemode_01", "mp_f_misty_01", "mp_f_stripperlite", "mp_g_m_pros_01", "mp_headtargets", "mp_m_claude_01", "mp_m_exarmy_01", "mp_m_famdd_01",
+	"mp_m_fibsec_01", "mp_m_freemode_01", "mp_m_marston_01", "mp_m_niko_01", "mp_m_shopkeep_01", "mp_s_m_armoured_01", "", "", "", "",
+	"", "s_f_m_fembarber", "s_f_m_maid_01", "s_f_m_shop_high", "s_f_m_sweatshop_01", "s_f_y_airhostess_01", "s_f_y_bartender_01", "s_f_y_baywatch_01", "s_f_y_cop_01", "s_f_y_factory_01",
+	"s_f_y_hooker_01", "s_f_y_hooker_02", "s_f_y_hooker_03", "s_f_y_migrant_01", "s_f_y_movprem_01", "s_f_y_ranger_01", "s_f_y_scrubs_01", "s_f_y_sheriff_01", "s_f_y_shop_low", "s_f_y_shop_mid",
+	"s_f_y_stripperlite", "s_f_y_stripper_01", "s_f_y_stripper_02", "s_f_y_sweatshop_01", "s_m_m_ammucountry", "s_m_m_armoured_01", "s_m_m_armoured_02", "s_m_m_autoshop_01", "s_m_m_autoshop_02", "s_m_m_bouncer_01",
+	"s_m_m_chemsec_01", "s_m_m_ciasec_01", "s_m_m_cntrybar_01", "s_m_m_dockwork_01", "s_m_m_doctor_01", "s_m_m_fiboffice_01", "s_m_m_fiboffice_02", "s_m_m_gaffer_01", "s_m_m_gardener_01", "s_m_m_gentransport",
+	"s_m_m_hairdress_01", "s_m_m_highsec_01", "s_m_m_highsec_02", "s_m_m_janitor", "s_m_m_lathandy_01", "s_m_m_lifeinvad_01", "s_m_m_linecook", "s_m_m_lsmetro_01", "s_m_m_mariachi_01", "s_m_m_marine_01",
+	"s_m_m_marine_02", "s_m_m_migrant_01", "u_m_y_zombie_01", "s_m_m_movprem_01", "s_m_m_movspace_01", "s_m_m_paramedic_01", "s_m_m_pilot_01", "s_m_m_pilot_02", "s_m_m_postal_01", "s_m_m_postal_02",
+	"s_m_m_prisguard_01", "s_m_m_scientist_01", "s_m_m_security_01", "s_m_m_snowcop_01", "s_m_m_strperf_01", "s_m_m_strpreach_01", "s_m_m_strvend_01", "s_m_m_trucker_01", "s_m_m_ups_01", "s_m_m_ups_02",
+	"s_m_o_busker_01", "s_m_y_airworker", "s_m_y_ammucity_01", "s_m_y_armymech_01", "s_m_y_autopsy_01", "s_m_y_barman_01", "s_m_y_baywatch_01", "s_m_y_blackops_01", "s_m_y_blackops_02", "s_m_y_busboy_01",
+	"s_m_y_chef_01", "s_m_y_clown_01", "s_m_y_construct_01", "s_m_y_construct_02", "s_m_y_cop_01", "s_m_y_dealer_01", "s_m_y_devinsec_01", "s_m_y_dockwork_01", "s_m_y_doorman_01", "s_m_y_dwservice_01",
+	"s_m_y_dwservice_02", "s_m_y_factory_01", "s_m_y_fireman_01", "s_m_y_garbage", "s_m_y_grip_01", "s_m_y_hwaycop_01", "s_m_y_marine_01", "s_m_y_marine_02", "s_m_y_marine_03", "s_m_y_mime",
+	"s_m_y_pestcont_01", "s_m_y_pilot_01", "s_m_y_prismuscl_01", "s_m_y_prisoner_01", "s_m_y_ranger_01", "s_m_y_robber_01", "s_m_y_sheriff_01", "s_m_y_shop_mask", "s_m_y_strvend_01", "s_m_y_swat_01",
+	"s_m_y_uscg_01", "s_m_y_valet_01", "s_m_y_waiter_01", "s_m_y_winclean_01", "s_m_y_xmech_01", "s_m_y_xmech_02", "u_f_m_corpse_01", "u_f_m_miranda", "u_f_m_promourn_01", "u_f_o_moviestar",
+	"u_f_o_prolhost_01", "u_f_y_bikerchic", "u_f_y_comjane", "u_f_y_corpse_01", "u_f_y_corpse_02", "u_f_y_hotposh_01", "u_f_y_jewelass_01", "u_f_y_mistress", "u_f_y_poppymich", "u_f_y_princess",
+	"u_f_y_spyactress", "u_m_m_aldinapoli", "u_m_m_bankman", "u_m_m_bikehire_01", "u_m_m_fibarchitect", "u_m_m_filmdirector", "u_m_m_glenstank_01", "u_m_m_griff_01", "u_m_m_jesus_01", "u_m_m_jewelsec_01",
+	"u_m_m_jewelthief", "u_m_m_markfost", "u_m_m_partytarget", "u_m_m_prolsec_01", "u_m_m_promourn_01", "u_m_m_rivalpap", "u_m_m_spyactor", "u_m_m_willyfist", "u_m_o_finguru_01", "u_m_o_taphillbilly",
+	"u_m_o_tramp_01", "u_m_y_abner", "u_m_y_antonb", "u_m_y_babyd", "u_m_y_baygor", "u_m_y_burgerdrug_01", "u_m_y_chip", "u_m_y_cyclist_01", "u_m_y_fibmugger_01", "u_m_y_guido_01",
+	"u_m_y_gunvend_01", "u_m_y_hippie_01", "u_m_y_imporage", "u_m_y_justin", "u_m_y_mani", "u_m_y_militarybum", "u_m_y_paparazzi", "u_m_y_party_01", "u_m_y_pogo_01", "u_m_y_prisoner_01"
+]]
+
+
+Model Name = hex,uint32,int32 (description)
+------------------------------------
+adder = 0xB779A091,3078201489,-1216765807
+airbus = 0x4C80EB0E,1283517198,1283517198 (Airport Bus)
+airtug = 0x5D0AAC8F,1560980623,1560980623
+akuma = 0x63ABADE7,1672195559,1672195559
+ambulance = 0x45D56ADA,1171614426,1171614426
+annihilator = 0x31F0B376,837858166,837858166
+armytanker = 0xB8081009,3087536137,-1207431159
+armytrailer = 0xA7FF33F5,2818520053,-1476447243 (Army Flatbed Trailer)
+armytrailer2 = 0x9E6B14D6,2657817814,-1637149482 (Flatbed With Cutter Trailer)
+asea = 0x94204D89,2485144969,-1809822327
+asea2 = 0x9441D8D5,2487343317,-1807623979 (Snowy Asea)
+asterope = 0x8E9254FB,2391954683,-1903012613
+bagger = 0x806B9CC3,2154536131,-2140431165
+baletrailer = 0xE82AE656,3895125590,-399841706
+baller = 0xCFCA3668,3486135912,-808831384
+baller2 = 0x08852855,142944341,142944341 (RangeRover Evoque)
+banshee = 0xC1E908D2,3253274834,-1041692462
+barracks = 0xCEEA3F4B,3471458123,-823509173 (Barracks With Backcover)
+barracks2 = 0x4008EABB,1074326203,1074326203 (Barracks Semi)
+bati = 0xF9300CC5,4180675781,-114291515
+bati2 = 0xCADD5D2D,3403504941,-891462355 (Bati Livery)
+benson = 0x7A61B330,2053223216,2053223216
+bfinjection = 0x432AA566,1126868326,1126868326
+biff = 0x32B91AE8,850991848,850991848
+bison = 0xFEFD644F,4278019151,-16948145
+bison2 = 0x7B8297C5,2072156101,2072156101 (Cowboy Construction Bison)
+bison3 = 0x67B3F020,1739845664,1739845664 (Landscapeing Bison)
+bjxl = 0x32B29A4B,850565707,850565707
+blazer = 0x8125BCF9,2166734073,-2128233223
+blazer2 = 0xFD231729,4246935337,-48031959 (Lifeguard Blazer)
+blazer3 = 0xB44F0582,3025077634,-1269889662 (Trevor's Hotrod Blazer)
+blimp = 0xF7004C86,4143991942,-150975354
+blista = 0xEB70965F,3950024287,-344943009
+bmx = 0x43779C54,1131912276,1131912276
+boattrailer = 0x1F3D44B5,524108981,524108981 (Boat Trailer)
+bobcatxl = 0x3FC5D440,1069929536,1069929536
+bodhi2 = 0xAA699BB6,2859047862,-1435919434 (Trevor's Truck)
+boxville = 0x898ECCEA,2307837162,-1987130134 (Water&Power Boxville)
+boxville2 = 0xF21B33BE,4061868990,-233098306 (Postal Boxville)
+boxville3 = 0x07405E08,121658888,121658888 (Humane Boxville)
+buccaneer = 0xD756460C,3612755468,-682211828
+buffalo = 0xEDD516C6,3990165190,-304802106
+buffalo2 = 0x2BEC3CBE,736902334,736902334 (Franklin's Buffalo)
+bulldozer = 0x7074F39D,1886712733,1886712733
+bullet = 0x9AE6DDA1,2598821281,-1696146015
+burrito = 0xAFBB2CA4,2948279460,-1346687836 (Cowboy Construction, Phartegas, Atomic, Water & Power Burrito)
+burrito2 = 0xC9E8FF76,3387490166,-907477130 (Bugstars Burrito)
+burrito3 = 0x98171BD3,2551651283,-1743316013 (No livery Burrito)
+burrito4 = 0x353B561D,893081117,893081117 (Cowboy Construction Burrito)
+burrito5 = 0x437CF2A0,1132262048,1132262048 (Snowy Burrito)
+bus = 0xD577C962,3581397346,-713569950
+buzzard = 0x2F03547B,788747387,788747387
+buzzard2 = 0x2C75F0DD,745926877,745926877 (Gunless / Transport Buzzard)
+cablecar = 0xC6C3242D,3334677549,-960289747
+caddy = 0x44623884,1147287684,1147287684 (Prolaps Caddy)
+caddy2 = 0xDFF0594C,3757070668,-537896628 (Old Caddy)
+camper = 0x6FD95F68,1876516712,1876516712
+carbonizzare = 0x7B8AB45F,2072687711,2072687711
+carbonrs = 0x00ABB0C0,11251904,11251904
+cargobob = 0xFCFCB68B,4244420235,-50547061
+cargobob2 = 0x60A7EA10,1621617168,1621617168 (Medical Cargobob)
+cargobob3 = 0x53174EEF,1394036463,1394036463 (Trevor's Cargobob)
+cargoplane = 0x15F27762,368211810,368211810
+cavalcade = 0x779F23AA,2006918058,2006918058 (GTA IV Cavalcade/Cadillac Escalade 2005)
+cavalcade2 = 0xD0EB2BE5,3505073125,-789894171 (GTA V Cavalcade/Cadillac Escalade 2013)
+cheetah = 0xB1D95DA0,2983812512,-1311154784
+coach = 0x84718D34,2222034228,-2072933068 (Dashound)
+cogcabrio = 0x13B57D8A,330661258,330661258
+comet2 = 0xC1AE4D16,3249425686,-1045541610
+coquette = 0x067BC037,108773431,108773431
+cruiser = 0x1ABA13B5,448402357,448402357
+crusader = 0x132D5A1A,321739290,321739290
+cuban800 = 0xD9927FE3,3650256867,-644710429
+cutter = 0xC3FBA120,3288047904,-1006919392
+daemon = 0x77934CEE,2006142190,2006142190
+dilettante = 0xBC993509,3164157193,-1130810103
+dilettante2 = 0x64430650,1682114128,1682114128 (Merryweather Patrol Car)
+dinghy = 0x3D961290,1033245328,1033245328
+dinghy2 = 0x107F392C,276773164,276773164 (2-Seater)
+dloader = 0x698521E3,1770332643,1770332643
+docktrailer = 0x806EFBEE,2154757102,-2140210194 (Shipping Container Trailer)
+docktug = 0xCB44B1CA,3410276810,-884690486
+dominator = 0x04CE68AC,80636076,80636076
+double = 0x9C669788,2623969160,-1670998136
+dubsta = 0x462FE277,1177543287,1177543287
+dubsta2 = 0xE882E5F6,3900892662,-394074634 (Blacked Out Dubsta)
+dump = 0x810369E2,2164484578,-2130482718
+dune = 0x9CF21E0F,2633113103,-1661854193
+dune2 = 0x1FD824AF,534258863,534258863 (Spacedocker)
+duster = 0x39D6779E,970356638,970356638
+elegy2 = 0xDE3D9D22,3728579874,-566387422
+emperor = 0xD7278283,3609690755,-685276541
+emperor2 = 0x8FC3AADC,2411965148,-1883002148 (Rusty Emperor)
+emperor3 = 0xB5FCF74E,3053254478,-1241712818 (Snowy Emperor)
+entityxf = 0xB2FE5CF9,3003014393,-1291952903
+exemplar = 0xFFB15B5E,4289813342,-5153954
+f620 = 0xDCBCBE48,3703357000,-591610296
+faggio2 = 0x0350D1AB,55628203,55628203
+fbi = 0x432EA949,1127131465,1127131465 (FIB Buffalo)
+fbi2 = 0x9DC66994,2647026068,-1647941228 (FIB Granger)
+felon = 0xE8A8BDA8,3903372712,-391594584
+felon2 = 0xFAAD85EE,4205676014,-89291282 (Felon GT Convertible)
+feltzer2 = 0x8911B9F5,2299640309,-1995326987
+firetruk = 0x73920F8E,1938952078,1938952078
+fixter = 0xCE23D3BF,3458454463,-836512833
+flatbed = 0x50B0215A,1353720154,1353720154
+forklift = 0x58E49664,1491375716,1491375716
+fq2 = 0xBC32A33B,3157435195,-1137532101
+freight = 0x3D6AAA9B,1030400667,1030400667 (Freight Train)
+freightcar = 0x0AFD22A6,184361638,184361638 (Train Well Car)
+freightcont1 = 0x36DCFF98,920453016,920453016 (Train Container)
+freightcont2 = 0x0E512E79,240201337,240201337 (Train Container Livery)
+freightgrain = 0x264D9262,642617954,642617954(Train Boxcar)
+freighttrailer = 0xD1ABB666,3517691494,-777275802 (Freight Train Flatbed)
+frogger = 0x2C634FBD,744705981,744705981
+frogger2 = 0x742E9AC0,1949211328,1949211328 (Trevor's Frogger)
+fugitive = 0x71CB2FFB,1909141499,1909141499
+fusilade = 0x1DC0BA53,499169875,499169875
+futo = 0x7836CE2F,2016857647,2016857647
+gauntlet = 0x94B395C5,2494797253,-1800170043
+gburrito = 0x97FA4F36,2549763894,-1745203402
+graintrailer = 0x3CC7F596,1019737494,1019737494
+granger = 0x9628879C,2519238556,-1775728740
+gresley = 0xA3FC0F4D,2751205197,-1543762099
+habanero = 0x34B7390F,884422927,884422927
+handler = 0x1A7FCEFA,444583674,444583674
+hauler = 0x5A82F9AE,1518533038,1518533038
+hexer = 0x11F76C14,301427732,301427732
+hotknife = 0x0239E390,37348240,37348240
+infernus = 0x18F25AC7,418536135,418536135
+ingot = 0xB3206692,3005245074,-1289722222
+intruder = 0x34DD8AA1,886934177,886934177
+issi2 = 0xB9CB3B69,3117103977,-1177863319 (Issi Convertible)
+jackal = 0xDAC67112,3670438162,-624529134
+jb700 = 0x3EAB5555,1051415893,1051415893
+jet = 0x3F119114,1058115860,1058115860
+jetmax = 0x33581161,861409633,861409633
+journey = 0xF8D48E7A,4174679674,-120287622
+khamelion = 0x206D1B68,544021352,544021352
+landstalker = 0x4BA4E8DC,1269098716,1269098716
+lazer = 0xB39B0AE6,3013282534,-1281684762
+lguard = 0x1BF8D381,469291905,469291905
+luxor = 0x250B0C5E,621481054,621481054
+mammatus = 0x97E55D11,2548391185,-1746576111
+manana = 0x81634188,2170765704,-2124201592
+marquis = 0xC1CE1183,3251507587,-1043459709
+maverick = 0x9D0450CA,2634305738,-1660661558
+mesa = 0x36848602,914654722,914654722
+mesa2 = 0xD36A4B44,3546958660,-748008636 (Snowy Mesa)
+mesa3 = 0x84F42E51,2230595153,-2064372143 (Merryweather Mesa)
+metrotrain = 0x33C9E158,868868440,868868440
+minivan = 0xED7EADA4,3984502180,-310465116
+mixer = 0xD138A6BB,3510150843,-784816453
+mixer2 = 0x1C534995,475220373,475220373 (Wheels On Back)
+monroe = 0xE62B361B,3861591579,-433375717
+mower = 0x6A4BD8F6,1783355638,1783355638
+mule = 0x35ED670B,904750859,904750859
+mule2 = 0xC1632BEB,3244501995,-1050465301 (Drop Down Trunk)
+nemesis = 0xDA288376,3660088182,-634879114
+ninef = 0x3D8FA25C,1032823388,1032823388
+ninef2 = 0xA8E38B01,2833484545,-1461482751 (Ninef Convertible)
+oracle = 0x506434F6,1348744438,1348744438 (GTA IV Oracle)
+oracle2 = 0xE18195B2,3783366066,-511601230 (Oracle XS)
+packer = 0x21EEE87D,569305213,569305213
+patriot = 0xCFCFEB3B,3486509883,-808457413
+pbus = 0x885F3671,2287941233,-2007026063 (Prison Bus)
+pcj = 0xC9CEAF06,3385765638,-909201658
+penumbra = 0xE9805550,3917501776,-377465520
+peyote = 0x6D19CCBC,1830407356,1830407356
+phantom = 0x809AA4CB,2157618379,-2137348917
+phoenix = 0x831A21D5,2199527893,-2095439403
+picador = 0x59E0FBF3,1507916787,1507916787
+police = 0x79FBB0C5,2046537925,2046537925 (Police Stanier)
+police2 = 0x9F05F101,2667966721,-1627000575 (Police Buffalo)
+police3 = 0x71FA16EA,1912215274,1912215274 (Police Interceptor)
+police4 = 0x8A63C7B9,2321795001,-1973172295 (Undercover Police Stanier)
+policeb = 0xFDEFAEC3,4260343491,-34623805 (Police Bike)
+policeold1 = 0xA46462F7,2758042359,-1536924937 (Snowy Police Rancher)
+policeold2 = 0x95F4C618,2515846680,-1779120616 (Snowy Police Esperanto)
+policet = 0x1B38E955,456714581,456714581 (Police Transport Van)
+polmav = 0x1517D4D9,353883353,353883353
+pony = 0xF8DE29A8,4175309224,-119658072 (Sunset Bleach, Sprunk, Postal Pony)
+pony2 = 0x38408341,943752001,943752001 (Weed Van)
+pounder = 0x7DE35E7D,2112052861,2112052861
+prairie = 0xA988D3A2,2844316578,-1450650718
+pranger = 0x2C33B46E,741586030,741586030
+predator = 0xE2E7D4AB,3806844075,-488123221
+premier = 0x8FB66F9B,2411098011,-1883869285
+primo = 0xBB6B404F,3144368207,-1150599089
+proptrailer = 0x153E1B0A,356391690,356391690 (Mobile Home Trailer)
+radi = 0x9D96B45B,2643899483,-1651067813
+raketrailer = 0x174CB172,390902130,390902130 (Farm Cultivator)
+rancherxl = 0x6210CBB0,1645267888,1645267888
+rancherxl2 = 0x7341576B,1933662059,1933662059 (Snowy Rancher)
+rapidgt = 0x8CB29A14,2360515092,-1934452204
+rapidgt2 = 0x679450AF,1737773231,1737773231 (Rapid GT Convertible)
+ratloader = 0xD83C13CE,3627815886,-667151410
+rebel = 0xB802DD46,3087195462,-1207771834 (Rusty Rebel)
+rebel2 = 0x8612B64B,2249373259,-2045594037 (Clean Rebel)
+regina = 0xFF22D208,4280472072,-14495224
+rentalbus = 0xBE819C63,3196165219,-1098802077
+rhino = 0x2EA68690,782665360,782665360
+riot = 0xB822A1AA,3089277354,-1205689942
+ripley = 0xCD935EF9,3448987385,-845979911
+rocoto = 0x7F5C91F1,2136773105,2136773105
+romero = 0x2560B2FC,627094268,627094268
+rubble = 0x9A5B1DCC,2589662668,-1705304628
+ruffian = 0xCABD11E8,3401388520,-893578776
+ruiner = 0xF26CEFF9,4067225593,-227741703
+rumpo = 0x4543B74D,1162065741,1162065741 (Weazel News Rumpo)
+rumpo2 = 0x961AFEF7,2518351607,-1776615689 (Deludamol Rumpo)
+sabregt = 0x9B909C94,2609945748,-1685021548
+sadler = 0xDC434E51,3695398481,-599568815
+sadler2 = 0x2BC345D1,734217681,734217681 (Snowy Sadler)
+sanchez = 0x2EF89E46,788045382,788045382 (Sanchez Livery)
+sanchez2 = 0xA960B13E,2841686334,-1453280962 (Sanchez Paint)
+sandking = 0xB9210FD0,3105951696,-1189015600 (Sandking 4-Seater)
+sandking2 = 0x3AF8C345,989381445,989381445 (Sandking 2-Seater)
+schafter2 = 0xB52B5113,3039514899,-1255452397
+schwarzer = 0xD37B7976,3548084598,-746882698
+scorcher = 0xF4E1AA15,4108429845,-186537451
+scrap = 0x9A9FD3DF,2594165727,-1700801569
+seashark = 0xC2974024,3264692260,-1030275036 (Speedophile Seashark)
+seashark2 = 0xDB4388E4,3678636260,-616331036 (Lifeguard Seashark)
+seminole = 0x48CECED3,1221512915,1221512915
+sentinel = 0x50732C82,1349725314,1349725314 (Sentinel XS)
+sentinel2 = 0x3412AE2D,873639469,873639469 (Sentinel Convertible)
+serrano = 0x4FB1A214,1337041428,1337041428
+shamal = 0xB79C1BF5,3080461301,-1214505995
+sheriff = 0x9BAA707C,2611638396,-1683328900 (Sheriff Stanier)
+sheriff2 = 0x72935408,1922257928,1922257928 (Sheriff Granger)
+skylift = 0x3E48BF23,1044954915,1044954915
+speedo = 0xCFB3870C,3484649228,-810318068
+speedo2 = 0x2B6DC64A,728614474,728614474 (Clown Van)
+squalo = 0x17DF5EC2,400514754,400514754
+stanier = 0xA7EDE74D,2817386317,-1477580979
+stinger = 0x5C23AF9B,1545842587,1545842587
+stingergt = 0x82E499FA,2196019706,-2098947590
+stockade = 0x6827CF72,1747439474,1747439474
+stockade3 = 0xF337AB36,4080511798,-214455498 (Snowy Stockade)
+stratum = 0x66B4FC45,1723137093,1723137093
+stretch = 0x8B13F083,2333339779,-1961627517
+stunt = 0x81794C70,2172210288,-2122757008
+submersible = 0x2DFF622F,771711535,771711535
+sultan = 0x39DA2754,970598228,970598228
+suntrap = 0xEF2295C9,4012021193,-282946103
+superd = 0x42F2ED16,1123216662,1123216662
+surano = 0x16E478C1,384071873,384071873
+surfer = 0x29B0DA97,699456151,699456151
+surfer2 = 0xB1D80E06,2983726598,-1311240698 (Rusty Surfer)
+surge = 0x8F0E3594,2400073108,-1894894188
+taco = 0x744CA80D,1951180813,1951180813
+tailgater = 0xC3DDFDCE,3286105550,-1008861746
+tanker = 0xD46F4737,3564062519,-730904777
+tankercar = 0x22EDDC30,586013744,586013744 (Train Fuel Tank Car)
+taxi = 0xC703DB5F,3338918751,-956048545
+tiptruck = 0x02E19879,48339065,48339065 (6-Wheeler)
+tiptruck2 = 0xC7824E5E,3347205726,-947761570 (10-Wheeler)
+titan = 0x761E2AD3,1981688531,1981688531
+tornado = 0x1BB290BC,464687292,464687292
+tornado2 = 0x5B42A5C4,1531094468,1531094468 (Tornado Convertible)
+tornado3 = 0x690A4153,1762279763,1762279763 (Rusty Tornado)
+tornado4 = 0x86CF7CDD,2261744861,-2033222435 (Tornado With Guitar/Mariachi Car)
+tourbus = 0x73B1C3CB,1941029835,1941029835
+towtruck = 0xB12314E0,2971866336,-1323100960 (Large Towtruck)
+towtruck2 = 0xE5A2D6C6,3852654278,-442313018 (Small Towtruck)
+tr2 = 0x7BE032C6,2078290630,2078290630 (Car Carrier Trailer)
+tr3 = 0x6A59902D,1784254509,1784254509 (Marquis Trailer)
+tr4 = 0x7CAB34D0,2091594960,2091594960 (Super Car Carrier Trailer)
+tractor = 0x61D6BA8C,1641462412,1641462412 (Rusty Tractor)
+tractor2 = 0x843B73DE,2218488798,-2076478498 (Farm Tractor)
+tractor3 = 0x562A97BD,1445631933,1445631933 (Snowy Tractor)
+trailerlogs = 0x782A236D,2016027501,2016027501 (Log Trailer)
+trailers = 0xCBB2BE0E,3417488910,-877478386 (Metal/Tarp Covered Trailer)
+trailers2 = 0xA1DA3C91,2715434129,-1579533167 (Up & Atom, Cluckinbell, Piswasser Trailer)
+trailers3 = 0x8548036D,2236089197,-2058878099 (Biggoods Trailer)
+trailersmall = 0x2A72BEAB,712162987,712162987 (Small Construction Trailer)
+trash = 0x72435A19,1917016601,1917016601
+trflat = 0xAF62F6B2,2942498482,-1352468814 (Flatbed Trailer)
+tribike = 0x4339CD69,1127861609,1127861609 (Green Whippet Race Bike)
+tribike2 = 0xB67597EC,3061159916,-1233807380 (Red Endurex Race Bike)
+tribike3 = 0xE823FB48,3894672200,-400295096 (Blue Tri-Cycles Race Bike)
+tropic = 0x1149422F,290013743,290013743
+tvtrailer = 0x967620BE,2524324030,-1770643266 (Fame or Shame Trailer)
+utillitruck = 0x1ED0A534,516990260,516990260 (Building & Renovation Basket Truck)
+utillitruck2 = 0x34E6BF6B,887537515,887537515 (Landscape, Gas, Building & Renovation Utillitruck)
+utillitruck3 = 0x7F2153DF,2132890591,2132890591 (Landscape Utility Pick-up Truck)
+vacca = 0x142E0DC3,338562499,338562499
+vader = 0xF79A00F7,4154065143,-140902153
+velum = 0x9C429B6A,2621610858,-1673356438
+vigero = 0xCEC6B9B7,3469130167,-825837129
+voltic = 0x9F4B77BE,2672523198,-1622444098
+voodoo2 = 0x1F3766E3,523724515,523724515 (Rusty Voodoo)
+washington = 0x69F06B57,1777363799,1777363799
+youga = 0x03E5F6B8,65402552,65402552
+zion = 0xBD1B39C3,3172678083,-1122289213 (Zion XS)
+zion2 = 0xB8E2AE18,3101863448,-1193103848 (Zion Convertible)
+ztype = 0x2D3BD401,758895617,758895617
+
+Dlc Vehicles:
+------------------------------------
+bifta = 0xEB298297,3945366167,-349601129
+kalahari = 0x05852838,92612664,92612664
+paradise = 0x58B3979C,1488164764,1488164764
+speeder = 0x0DC60D2B,231083307,231083307
+btype = 0x06FF6914,117401876,117401876 (Roosevelt)
+jester = 0xB2A716A3,2997294755,-1297672541
+turismor = 0x185484E1,408192225,408192225
+alpha = 0x2DB8D1AA,767087018,767087018
+vestra = 0x4FF77E37,1341619767,1341619767
+massacro = 0xF77ADE32,4152024626,-142942670
+zentorno = 0xAC5DF515,2891838741,-1403128555
+huntley = 0x1D06D681,486987393,486987393
+thrust = 0x6D6F8F43,1836027715,1836027715
+rhapsody = 0x322CF98F,841808271,841808271
+warrener = 0x51D83328,1373123368,1373123368
+blade = 0xB820ED5E,3089165662,-1205801634
+glendale = 0x047A6BC1,75131841,75131841
+panto = 0xE644E480,3863274624,-431692672
+dubsta3 = 0xB6410173,3057713523,-1237253773 (Dubsta 6x6)
+pigalle = 0x404B6381,1078682497,1078682497
+monster = 0xCD93A7DB,3449006043,-845961253 (The Liberator)
+sovereign = 0x2C509634,743478836,743478836
+besra = 0x6CBD1D6D,1824333165,1824333165
+miljet = 0x09D80F93,165154707,165154707
+coquette2 = 0x3C4E2113,1011753235,1011753235 (Coquette Classic)
+swift = 0xEBC24DF2,3955379698,-339587598
+innovation = 0xF683EACA,4135840458,-159126838
+hakuchou = 0x4B6C568A,1265391242,1265391242
+furoregt = 0xBF1691E0,3205927392,-1089039904
+jester2 = 0xBE0E6126,3188613414,-1106353882 (Rester Race)
+massacro2 = 0xDA5819A3,3663206819,-631760477 (Massacaro Race)
+ratloader2 = 0xDCE1D9F7,3705788919,-589178377 (Rat Truck)
+slamvan = 0x2B7F9DE3,729783779,729783779
+mule3 = 0x85A5B471,2242229361,-2052737935 (No Livery)
+velum2 = 0x403820E8,1077420264,1077420264 (5-Seater)
+tanker2 = 0x74998082,1956216962,1956216962 (No Livery)
+casco = 0x3822BDFE,941800958,941800958
+boxville4 = 0x1A79847A,444171386,444171386 (Post OP)
+hydra = 0x39D6E83F,970385471,970385471
+insurgent = 0x9114EADA,2434067162,-1860900134 (Mounted Gun)
+insurgent2 = 0x7B7E56F0,2071877360,2071877360 (Transport)
+gburrito2 = 0x11AA0E14,296357396,296357396 (No Livery)
+technical = 0x83051506,2198148358,-2096818938
+dinghy3 = 0x1E5E54EA,509498602,509498602 (New Map On Dash)
+savage = 0xFB133A17,4212341271,-82626025
+enduro = 0x6882FA73,1753414259,1753414259
+guardian = 0x825A9F4C,2186977100,-2107990196
+lectro = 0x26321E67,640818791,640818791
+kuruma = 0xAE2BFE94,2922118804,-1372848492
+kuruma2 = 0x187D938D,410882957,410882957 (Armored)
+trash2 = 0xB527915C,3039269212,-1255698084 (Rusty Back)
+barracks3 = 0x2592B5CF,630371791,630371791 (Dark Camo and New Cover)
+valkyrie = 0xA09E15FD,2694714877,-1600252419
+slamvan2 = 0x31ADBBFC,833469436,833469436 (Lost Slamvan)
+swift2 = 0x4019CB4C,1075432268,1075432268 (Gold)
+luxor2 = 0xB79F589E,3080673438,-1214293858 (Gold)
+feltzer3 = 0xA29D6D10,2728226064,-1566741232 (Stirling GT)
+osiris = 0x767164D6,1987142870,1987142870
+virgo = 0xE2504942,3796912450,-498054846
+windsor = 0x5E4327C8,1581459400,1581459400
+coquette3 = 0x2EC385FE,784565758,784565758 (Blackfin)
+vindicator = 0xAF599F01,2941886209,-1353081087
+t20 = 0x6322B39A,1663218586,1663218586
+brawler = 0xA7CE1BC5,2815302597,-1479664699
+toro = 0x3FD5AA2F,1070967343,1070967343
+chino = 0x14D69010,349605904,349605904
+
+Next Gen Vehicles:
+------------------------------------
+submersible2 = 0xC07107EE,3228633070,-1066334226 (Kraken)
+dukes = 0x2B26F456,723973206,723973206
+dukes2 = 0xEC8F7094,3968823444,-326143852 (Duke O'Death)
+buffalo3 = 0x0E2C013E,237764926,237764926 (Sprunk Buffalo)
+dominator2 = 0xC96B73D9,3379262425,-915704871 (Pisswasser Dominator)
+dodo = 0xCA495705,3393804037,-901163259
+marshall = 0x49863E9C,1233534620,1233534620
+blimp2 = 0xDB6B4924,3681241380,-613725916 (Xero Blimp)
+gauntlet2 = 0x14D22159,349315417,349315417 (Redwood Gauntlet)
+stalion = 0x72A4C31E,1923400478,1923400478
+stalion2 = 0xE80F67EE,3893323758,-401643538 (Burger Shot Stallion)
+blista2 = 0x3DEE5EDA,1039032026,1039032026 (Blista Compact)
+blista3 = 0xDCBC1C3B,3703315515,-591651781 (Go Go Monkey Blista)
