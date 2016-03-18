@@ -97,7 +97,7 @@ Every object in GTA V will have both a string name and an actual hash reference 
 ## again.lua
 Like any development, a cycle of change and test is common work-flow. Without any help, you must exit the game and restart before any changes to files in the addins folder will show up in game. Again.lua to the rescue! This simple file will let you press a key to have your code reload without having to exit the game! This was such a game changer for me as it increased my dev cycle by 1000x. 
 
-Simply include this file in our addins folder ```\SteamLibrary\SteamApps\common\Grand Theft Auto V\scripts\addins``` to use. Currently set to key 35 (del) which is not always avaiable on all keyboards. Feel free to change.
+Simply include this file in our addins folder ```\SteamLibrary\SteamApps\common\Grand Theft Auto V\scripts\addins``` to use. Currently set to key 35 (del) which is not always available on all keyboards. Feel free to change.
 
 ```
 local again = {}
