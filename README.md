@@ -71,6 +71,7 @@ A few simple steps to get up and running. First we must download ScriptHook, and
 After you have installed both ScriptHook and LuaHook, you should have a /script/addons/ folder added in GTA main directory. This is where we will save .lua files.
 
 Here is a very simple hello world module. It does not print to GTA game, but the console instead. It is a good first test to make sure things are working for you.
+
 ```
 local test = {}
 
@@ -78,8 +79,10 @@ function test.tick()
     print("Hello World!")
 end
 
-return test 
-```
+return test ```
+
+
+
  Copy this code and save it as test.lua in /scripts/addons/ directory under your GTA install directory. Then fire up the game and you should see the game load normally. Once your player is moving around you can pause the game and alt-tab out to your desktop. There you can check the console for your print statement.
  
 The 'tick()' function here is what is run every frame of the game. This is where the code hooks into the run-time code, so be careful what you put in here as it can freeze or crash the game if you are not careful. The two files will get you started with some code. The zombie file can run as is, while the "&lt;TT&gt;" file is used as a template. Simply search and replace "&lt;TT&gt;" with your "Modulename" and it will create a new module with common functions you can use to create interesting changes to the game.
