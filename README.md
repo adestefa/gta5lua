@@ -112,6 +112,17 @@ end
 return again
 ```
 
+1) Edit Script, save file to /addins/
+2) Alt-tab to GTA V game
+3) Press Del key
+4) Wait few seconds for the game to update
+5) Changes will be shown in game
+
+## Errors/Console
+When you download Script hook you have the option of the Download SDK version. This will include a console. Use this as it will print any errors and line numbers.
+
+![Image of Console](https://adestefawp.files.wordpress.com/2016/03/console.png)
+
 
 ###Have fun!
 
