@@ -71,6 +71,7 @@ A few simple steps to get up and running. First we must download ScriptHook, and
 After you have installed both ScriptHook and LuaHook, you should have a /script/addons/ folder added in GTA main directory. This is where we will save .lua files.
 
 Here is a very simple hello world module. It does not print to GTA game, but the console instead. It is a good first test to make sure things are working for you.
+
 ```
 local test = {}
 
@@ -78,13 +79,57 @@ function test.tick()
     print("Hello World!")
 end
 
-return test 
+return test
 ```
+
+
+
  Copy this code and save it as test.lua in /scripts/addons/ directory under your GTA install directory. Then fire up the game and you should see the game load normally. Once your player is moving around you can pause the game and alt-tab out to your desktop. There you can check the console for your print statement.
  
 The 'tick()' function here is what is run every frame of the game. This is where the code hooks into the run-time code, so be careful what you put in here as it can freeze or crash the game if you are not careful. The two files will get you started with some code. The zombie file can run as is, while the "&lt;TT&gt;" file is used as a template. Simply search and replace "&lt;TT&gt;" with your "Modulename" and it will create a new module with common functions you can use to create interesting changes to the game.
 
-Have fun!
+## Keys
+keys.lua contains mapping of common keyboard keys. Use this for refference or add this to your project for direct use.
+
+## Skins.txt
+Every object in GTA V will have both a string name and an actual hash reference value. This hash acts as the actual value stored in memory. You can use either, but if you use the string name, ```model = GAMEPLAY.GET_HASH_KEY(modelName)``` you have to do a look-up to get the hash value before you can use it in game. This is why it is faster just to include the hash and skip the overhead.
+
+## again.lua
+Like any development, a cycle of change and test is common work-flow. Without any help, you must exit the game and restart before any changes to files in the addins folder will show up in game. Again.lua to the rescue! This simple file will let you press a key to have your code reload without having to exit the game! This was such a game changer for me as it increased my dev cycle by 1000x. 
+
+Simply include this file in our addins folder ```\SteamLibrary\SteamApps\common\Grand Theft Auto V\scripts\addins``` to use. Currently set to key 35 (del) which is not always available on all keyboards. Feel free to change.
+
+```
+local again = {}
+function again.tick()
+    -- end key 35--
+	if(get_key_pressed(35)) then
+		loadAddIns()
+		print("AddIns ReLoaded")
+		wait(4999);	
+	end
+end
+return again
+```
+
+1) Edit Script, save file to /addins/
+
+2) Alt-tab to GTA V game
+
+3) Press Del key
+
+4) Wait few seconds for the game to update
+
+5) Changes will be shown in game
+
+
+## Errors/Console
+When you download Script hook you have the option of the Download SDK version. This will include a console. Use this as it will print any errors and line numbers.
+
+![Image of Console](https://adestefawp.files.wordpress.com/2016/03/console.png)
+
+
+###Have fun!
 
 
 -------------------------------------------
