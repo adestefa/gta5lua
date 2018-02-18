@@ -43,7 +43,7 @@ Using Lua, our stack now looks like this, and adding a mod is as simple as savin
 
 ### History
 
-Lua has an interesting history as a language. It is born from limtations posed on engineers in Brazil, import laws did not allow them to use intellectual property from other countries. To expand past C, (which they already had) they would have to develop their own higher level languages themselves. Lua came from this effort, as a scripting lanuage over C, Lua is very easy to work with. It feels more like Python than say Java or C itself and has no dependancies.  This makes setting up and working with Lua in GTA V very easy and a great choice for someone wanting to get their feet wet with minimal invested time and learning curve.
+Lua has an interesting history as a language. It is born from limtations posed on engineers in Brazil, import laws did not allow them to use intellectual property from other countries. To expand past C, (which they already had) they would have to develop their own higher level languages themselves. Lua came from this effort, as a scripting language over C, Lua is very easy to work with. It feels more like Python, than say Java or C itself and has no dependancies.  This makes setting up and working with Lua in GTA V very easy and a great choice for someone wanting to get their feet wet with minimal invested time and learning curve.
 
 For the geek, Lua combines simple procedural syntax with powerful data description constructs based on associative arrays and extensible semantics. Lua is dynamically typed, runs by interpreting bytecode for a register-based virtual machine, and has automatic memory management with incremental garbage collection, making it ideal for configuration, scripting, and rapid prototyping.
 
